@@ -1,3 +1,3 @@
 
-[Link to gdp graph](https://jgadasi/csci233-finance/blob/main/graphs/plot_6-jgadasi/gdp_graph.html)
+[Link to plot 6](https://jgadasi.github.io/csci233-finance-jgadasi/plot_6.html)
 
