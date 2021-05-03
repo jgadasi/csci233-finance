@@ -1,48 +1,67 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>CSCI 233 - Finance Group</title>
+<title> Key Economic Metrics </title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<link href = "style.css" rel = "stylesheet" type = "text/css">
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-</style>
 </head>
-  
-<body style="background-color:white;">
-  
+<body>
 <header>
-  <h1>CSCI 233 Finance Group</h1>  
-</header>
-  
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~chanaabramov/6/" name= "GDP"></iframe>
-<!iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~chanaabramov/6.embed"><!/iframe> 
-<!iframe width="900" length = "150%" height="800" frameborder="0" scrolling="no" src="https://jgadasi.github.io/csci233-finance/GDP_Table.html"><!/iframe>
+		<nav>
+			<div class="container">
+    			<ul>
+    				<li><a href= "#GDP">GDP</a></li>
+            		<li><a href= "#Market Cap">Market Cap</a></li>
+            		<li><a href= "#Inflation">Inflation</a></li>
+            		<li><a href= "#Unemployment">Unemployment</a></li>
+            		<li><a href= "#home">Back to the Top</a></li>
+          		</ul>
+ 	   		</div>
+ 		</nav>
+			
 
-  
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~jgadasi/1/" name= "Market Cap"></iframe>
-<!iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jgadasi/1.embed"><!/iframe>
-<!iframe width="900" length = "150%" height="800" frameborder="0" scrolling="no" src="https://jgadasi.github.io/csci233-finance/Market_Cap.html"><!/iframe>
+		<div class="hero" id="home">
+			<h1>
+				Key Economic Metrics
+			</h1>
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~huihuangliu123/1/" name="Inflation"></iframe>
-<!iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~huihuangliu123/1.embed"></iframe>
-<!iframe width="900" length = "150%" height="800" frameborder="0" scrolling="no" src="https://jgadasi.github.io/csci233-finance/GDP_Table.html"><!/iframe>
+			<h2>
+				CSCI 233 - Finance Group
+			</h2>
+		</div>
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~Jortiz1797/3/" name= "Unemployment"></iframe>
-<!iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~Jortiz1797/3.embed"><!/iframe>
-<!iframe width="900" length = "150%" height="800" frameborder="0" scrolling="no" src="https://jgadasi.github.io/csci233-finance/Unemployment_Table.html"><!/iframe>
+	</header>
+
+	<section id= "GDP">
+		<div class="chart">
+			<h2>GDP</h2>
+			<iframe width="1400" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~chanaabramov/6/" name= "GDP"></iframe>
+		</div>
+	</section>
+	
+	<section id="Market Cap">
+		<div class="chart" >
+			<h2>Market Cap</h2>
+			<iframe width="1400" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~jgadasi/1/" name= "Market Cap"></iframe>
+		</div>
+	</section>
+	
+	<section id= "Inflation">
+		<div class="chart">
+			<h2>Inflation</h2>
+			<iframe width="1400" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~huihuangliu123/1/" name="Inflation"></iframe>
+		</div>
+	</section>
+	
+	<section id= "Unemployment">
+		<div class="chart" >
+			<h2>Unemployment</h2>
+			<iframe width="1400" height="800" frameborder="0" scrolling="no" src="https://plotly.com/~Jortiz1797/3/" name= "Unemployment"></iframe>
+		</div>
+	</section>
+	
+
+
 </body>
 </html>
-

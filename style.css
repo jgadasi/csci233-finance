@@ -1,0 +1,111 @@
+*
+{
+	box-sizing: border-box;
+}
+header 
+{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(headerImage1.jpeg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+nav {
+  top: 0%;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+.container {
+  padding: 22px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container ul li {
+  list-style: none;
+  margin: 0 10px;
+  display: inline-block;
+}
+.container ul li a:hover {
+  padding: 12px;
+  color: #fc0;
+}
+.container ul li a {
+  margin: 8px;
+  padding: 10px;
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+.active {
+  border-bottom: 2px solid #d0d7d9;
+}
+.container p{
+margin-bottom: 16px;
+color: #fc0;
+font-weight: 700;
+font-size: 20px;
+}
+
+
+
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1500px
+	margin: auto;
+}
+
+.hero
+{
+	/*position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 0; */
+	padding: 25px;
+  	text-align: center;
+  	color: white;
+}
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 300px;
+	margin-bottom: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+h2
+{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
